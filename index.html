@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoccerPlayers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2>SOCCERPLAYERS</h2>
+            <div class="dev">
+                <a href="desenvolvedores.html">Desenvolvedores</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <form id="playerForm">
+            <div class="grupo">
+                <label for="jogador">Jogador:</label>
+                <input type="text" id="jogador" class="time" name="jogador" required>
+            </div>
+            <div class="grupo">
+                <label for="time">Time:</label>
+                <input type="text" id="time" class="time" name="time" required>
+            </div>
+            <button type="submit">Adicionar</button>
+        </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th id="sortable-jogador">Jogador</th>
+                        <th id="sortable-time">Time</th>
+                </thead>
+
+                <tbody id="tabelaDados" class="table-group-divider">
+                    <tr>
+                        <th>1</th>
+                        <td>Neymar</td>
+                        <td>Santos</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Messi</td>
+                        <td>Inter Miami</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Cristiano Ronaldo</td>
+                        <td> Al Nassr</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>Gabigol</td>
+                        <td>Cruzeiro</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>Yuri Alberto</td>
+                        <td>Corinthians</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td>Luciano</td>
+                        <td>São Paulo</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td>Balotelli</td>
+                        <td>Sem time</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td>Roger Guedes</td>
+                        <td>Al Rayyan</td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td>Zé Roberto</td>
+                        <td>Aposentado</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td>Pelé</td>
+                        <td>Dos Céus</td>
+                    </tr>
+                </tbody>
+                <tfoot class="table-group-divider text-center">
+                    <tr>
+                        <td colspan="3">Todos os direitos reservados &copy;</td>
+                    </tr>
+                </tfoot>
+                <caption class="caption-top text-center">Lista de Jogadores</caption>
+            </table>
+    </main>
+
+    <footer>
+        <img src="imagens/logo.png" alt="Logo IFRN">
+        <p>Trabalho de Autoria Web</p>
+        <p>Prof. Marcelo Figueiredo Barbosa Júnior.</p>
+        <ul>Alunos:
+            <li>Guilherme Silva de Lima</li>
+            <li>Renato Ferreira do Nascimento</li>
+            <li>Thobias Henrique de Maria Oliveira</li>
+        </ul>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
